@@ -259,6 +259,7 @@ main #portfolio {
 
 main #portfolio p {
   margin-bottom: 20px;
+  
 }
 
 main #portfolio .port-img1,
@@ -267,11 +268,16 @@ main #portfolio .port-img1,
 }
 
 main #portfolio img {
-  /* margin :0px 24px 24px 0px; */
   height: 440px;
   margin-right: 24px;
   margin-bottom: 24px;
   max-width: 390px;
+}
+
+main #portfolio img:hover{
+  transform: scale(1.1); 
+  opacity: 0.8;
+  filter: grayscale(50%); 
 }
 
 /* subscribe section styles */
@@ -330,6 +336,9 @@ footer .address,
   justify-content: space-between;
 }
 
+.website a{
+  text-decoration: none;
+}
 footer .address .street {
   margin: 120px 600px 50px 0px;
 }
