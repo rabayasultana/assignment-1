@@ -220,7 +220,7 @@ main #sale {
   flex-direction: column;
   height: 984px;
   background-image: url("../assets/Rectangle\ 2.png"),
-    url("/assets/Rectangle\ 1.png");
+    url("../assets/Rectangle\ 1.png");
   background-position: center bottom, center right;
   background-size: auto, auto;
   background-repeat: no-repeat;
