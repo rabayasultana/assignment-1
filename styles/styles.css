@@ -108,7 +108,7 @@ main .about .about-img {
   font-size: 32px;
   font-weight: 600;
   text-transform: capitalize;
-  text-align:center;
+  text-align: center;
   margin: 100px auto;
 }
 
@@ -130,8 +130,50 @@ main .about .about-img {
   background-color: #f00;
 }
 
-
 /* offer div styles */
-main .offer{
+main #offer {
+  /* background: #FFF; */
+  background-color: bisque;
+  height: 400px;
   display: flex;
+}
+
+main #offer .best {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+main #offer .head-para {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+main .about-para {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+main #offer .img-offer {
+  border: 10px solid #f00;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.year {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+
+main #sale{
+  height: 7335px;
 }
