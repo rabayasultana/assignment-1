@@ -166,12 +166,12 @@ main #offer {
   display: flex;
 }
 
-main #offer p{
+main #offer p {
   margin-top: 15px;
 }
 
-main #offer .about-para{
-  height:160px;
+main #offer .about-para {
+  height: 160px;
   width: 300px;
 }
 
@@ -180,7 +180,6 @@ main #offer .img-offer {
   border-radius: 100%;
   padding: 10px;
 }
-
 
 .year {
   color: #f00;
@@ -211,8 +210,6 @@ main .about-para {
   font-weight: 400;
 }
 
-
-
 /* Sale section */
 
 main #sale {
@@ -232,21 +229,21 @@ main #sale .sale-img {
   margin: 100px 250px 50px 5px; */
 }
 
-.sale-img1{
+.sale-img1 {
   position: relative;
   top: 140px;
   right: 300px;
 }
 
-.sale-img2{
+.sale-img2 {
   position: relative;
   left: 408px;
   bottom: 513px;
 }
 
-.sale-img3{
+.sale-img3 {
   position: relative;
-  bottom:950px;
+  bottom: 950px;
   left: 200px;
 }
 
@@ -262,8 +259,8 @@ main #sale .sale-rate {
   font-size: 72px;
   font-weight: 900;
 }
-main #sale span{
-  color: #F00;
+main #sale span {
+  color: #f00;
 }
 /* portfolio section */
 main #portfolio {
@@ -277,7 +274,6 @@ main #portfolio {
 
 main #portfolio p {
   margin-bottom: 20px;
-  
 }
 
 main #portfolio .port-img1,
@@ -292,10 +288,10 @@ main #portfolio img {
   max-width: 390px;
 }
 
-main #portfolio img:hover{
-  transform: scale(1.1); 
+main #portfolio img:hover {
+  transform: scale(1.1);
   opacity: 0.8;
-  filter: grayscale(50%); 
+  filter: grayscale(50%);
 }
 
 /* subscribe section styles */
@@ -317,18 +313,21 @@ main #subscribe p {
 main #subscribe .input {
   align-items: center;
   margin: 50px 400px;
-  /* display: inline-block;
-  gap: 0px; */
-  /* height: 40px;
-  margin: 50px 400px;
-  align-items: center;
-  border-radius: 30%;
-  background-color: white; */
+  display: inline-flex;
+  border-radius: 50px;
+  background-color: white;
 }
 
-main #subscribe .input .email {
-  background-color: white;
-  border-radius: 0 0 0 100px;
+input,
+#b3 {
+  border: none;
+}
+
+#b3 {
+  color: #fff;
+  padding: 10px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
 }
 
 /* footer section styles */
@@ -354,7 +353,7 @@ footer .address,
   justify-content: space-between;
 }
 
-.website a{
+.website a {
   text-decoration: none;
 }
 footer .address .street {
@@ -365,7 +364,7 @@ footer .address .contact {
   margin: 120px 20px 50px 0px;
 }
 
-footer .social-media img{
+footer .social-media img {
   margin: 48px 24px;
 }
 
