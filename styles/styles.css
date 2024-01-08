@@ -59,16 +59,20 @@ header .banner .headings {
 /* main section styles */
 
 /* categories div styles */
-main #categories{
-  background-color: bisque;
+main #categories {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
   text-align: center;
   height: 800px;
 }
 
-main #categories p{
+main #categories p {
   margin: 10px auto;
 }
-main #categories img{
+main #categories img {
   margin: 10px auto;
 }
 main #categories .off {
@@ -153,12 +157,39 @@ main .about .about-img {
 
 /* offer div styles */
 main #offer {
-  /* background: #FFF; */
-  background-color: bisque;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
   height: 400px;
   display: flex;
 }
 
+main #offer p{
+  margin-top: 15px;
+}
+
+main #offer .about-para{
+  height:160px;
+  width: 300px;
+}
+
+main #offer .img-offer {
+  border: 10px solid #f00;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+
+.year {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* some other shared style */
 main .best {
   color: #f00;
   font-family: "Inter", sans-serif;
@@ -180,27 +211,50 @@ main .about-para {
   font-weight: 400;
 }
 
-main #offer .img-offer {
-  border: 10px solid #f00;
-  border-radius: 100%;
-  padding: 10px;
-}
 
-.year {
-  color: #f00;
-  font-family: "Inter", sans-serif;
-  font-size: 48px;
-  font-weight: 700;
-}
+
+/* Sale section */
 
 main #sale {
+  display: flex;
+  flex-direction: column;
   height: 984px;
-  background-color: bisque;
+  background-image: url("../assets/Rectangle\ 2.png"),
+    url("/assets/Rectangle\ 1.png");
+  background-position: center bottom, center right;
+  background-size: auto, auto;
+  background-repeat: no-repeat;
+  border-radius: 16px 0px 16px 16px;
+}
+main #sale .sale-img {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px 250px 50px 5px;
 }
 
+main #sale .sale-title {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+main #sale .sale-rate {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+}
+main #sale span{
+  color: #F00;
+}
+/* portfolio section */
 main #portfolio {
   height: 1165px;
-  background-color: bisque;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
 }
 
 main #portfolio p {
@@ -284,11 +338,11 @@ footer .address .contact {
   margin: 120px 20px 50px 0px;
 }
 
-footer .social-media img {
+footer .social-media img{
   margin: 48px 24px;
 }
 
-footer .social-media #img1 {
+footer .social-media .img1 {
   margin-left: 440px;
 }
 
