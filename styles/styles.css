@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Merriweather:wght@400;700;900&display=swap");
 
 /* common shared styles */
 * {
@@ -7,15 +7,28 @@
   font-family: "Merriweather", serif;
 }
 
+.btn {
+  color: #fff;
+  background-color: #1e1c21;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 .container {
   width: 82%;
   max-width: 1320px;
   margin: 120px auto;
 }
 /* header related styles */
+
+#header {
+  margin-top: 50px;
+}
 header .banner {
   height: 600px;
-  background-image: url("../assets/Banner\ Image.png");
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../assets/Banner\ Image.png");
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -27,7 +40,8 @@ header .banner .greetings {
   text-align: center;
   font-size: 32px;
   font-weight: 400;
-  margin: 177px 531px 16px 530px;
+  margin: 177px auto;
+  margin-bottom: 0px;
   position: relative;
   z-index: 1;
 }
@@ -36,14 +50,88 @@ header .banner .headings {
   text-align: center;
   font-size: 72px;
   font-weight: 900;
-  margin: 0 344px 177px 344px;
+  margin: 16px 344px 177px 344px;
   position: relative;
   z-index: 1;
 }
 
-
 /* main section styles */
-main .about{
+main .about {
   height: 600px;
-  background-image: url(../assets/Vectorrr.png);
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../assets/Vectorrr.png);
+  display: flex;
+}
+
+main .about .text {
+  justify-content: center;
+  text-align: center;
+}
+
+main .about .text .headings {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7px;
+  margin: 100px 94px 24px 126px;
+}
+
+main .about .text .para {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 24px 39px 10px 126px;
+  text-align: justify;
+}
+
+main .about .about-img {
+  margin: 68px 138px 67px 39.17px;
+}
+
+/* vanue part styles */
+
+#vanue {
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#vanue .vanue {
+  color: #070211;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align:center;
+  margin: 100px auto;
+}
+
+#vanue .vanue .text-red {
+  color: #f00;
+}
+
+#vanue .red-btn {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #f00;
+}
+#vanue #b2 {
+  border: 0px;
+  background-color: #f00;
+}
+
+
+/* offer div styles */
+main .offer{
+  display: flex;
 }
