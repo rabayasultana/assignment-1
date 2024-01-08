@@ -10,6 +10,7 @@
 .container {
   width: 82%;
   max-width: 1320px;
+  margin: 120px auto;
 }
 /* header related styles */
 header .banner {
