@@ -173,7 +173,53 @@ main #offer .img-offer {
   font-weight: 700;
 }
 
+main #sale {
+  height: 2335px;
+}
 
-main #sale{
-  height: 7335px;
+footer {
+  width: 100%;
+  max-width: 1600px;
+  height: 609px;
+  background: #070211;
+}
+
+footer p {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+footer .address,
+.copyright,
+.phone,
+.website {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .address .street {
+  margin: 120px 600px 50px 0px;
+}
+
+footer .address .contact {
+  margin: 120px 20px 50px 0px;
+}
+
+
+footer .social-media img {
+  margin: 48px 24px;
+}
+
+footer .social-media #img1 {
+  margin-left: 440px;
+}
+
+footer .copyright .p1{
+  margin: 50px 680px 120px 0px;
+}
+
+footer .copyright .p2{
+  margin: 50px 0px 120px 0px;
 }
