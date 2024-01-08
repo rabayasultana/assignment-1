@@ -219,17 +219,35 @@ main #sale {
   display: flex;
   flex-direction: column;
   height: 984px;
-  background-image: url("../assets/Rectangle\ 2.png"),
-    url("../assets/Rectangle\ 1.png");
+  background-image: url("../assets/Rectangle\ 2.png");
   background-position: center bottom, center right;
   background-size: auto, auto;
   background-repeat: no-repeat;
   border-radius: 16px 0px 16px 16px;
 }
 main #sale .sale-img {
-  display: flex;
-  justify-content: space-around;
-  margin: 100px 250px 50px 5px;
+  /* position: absolute; */
+  /* display: flex; */
+  /* justify-content: space-around;
+  margin: 100px 250px 50px 5px; */
+}
+
+.sale-img1{
+  position: relative;
+  top: 140px;
+  right: 300px;
+}
+
+.sale-img2{
+  position: relative;
+  left: 408px;
+  bottom: 513px;
+}
+
+.sale-img3{
+  position: relative;
+  bottom:950px;
+  left: 200px;
 }
 
 main #sale .sale-title {
