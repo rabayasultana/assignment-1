@@ -14,6 +14,7 @@
   font-size: 20px;
   text-transform: uppercase;
   border: 0px;
+  cursor:pointer;
 }
 
 .container {
@@ -228,10 +229,7 @@ main #sale {
   border-radius: 16px 0px 16px 16px;
 }
 main #sale .sale-img {
-  /* position: absolute; */
-  /* display: flex; */
-  /* justify-content: space-around;
-  margin: 100px 250px 50px 5px; */
+  width: 100%;
 }
 
 .sale-img1 {
