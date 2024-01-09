@@ -240,7 +240,7 @@ main #sale .sale-img {
 
 .sale-img2 {
   position: relative;
-  left: 408px;
+  left: 400px;
   bottom: 513px;
   right: 0;
 }
@@ -287,8 +287,8 @@ main #portfolio .port-img1,
 
 main #portfolio img {
   height: 440px;
-  margin-right: 24px;
-  margin-bottom: 24px;
+  margin-right: 20px;
+  margin-bottom: 20px;
   max-width: 390px;
 }
 
